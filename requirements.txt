@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────
+# ZimAgent Desktop – Python dependencies
+# ─────────────────────────────────────────────
+
+# GUI
+PyQt5>=5.15.0
+PyQtWebEngine>=5.15.0       # HTML article rendering (optional but recommended)
+
+# ZIM reader
+libzim>=3.3.0               # Official Kiwix Python bindings
+
+# Semantic search + RAG  (install separately, see README)
+# turborag-ahx47            # pip install turborag-ahx47
+
+# System monitoring
+psutil>=5.9.0
+
+# MCP server
+fastmcp>=0.2.0              # pip install fastmcp
+
+# Packaging (optional, for building installers)
+# pyinstaller>=6.0.0
+
+# ─────────────────────────────────────────────
+# Notes
+# ─────────────────────────────────────────────
+# 1. libzim may require system libzim6 or libzim7 on Linux:
+#      sudo apt install libzim-dev
+# 2. PyQtWebEngine is needed for full HTML rendering.
+#    Without it, the viewer falls back to plain text.
+# 3. turborag-ahx47 requires GGUF models in models/ folder.
+#    Models can be downloaded from HuggingFace.

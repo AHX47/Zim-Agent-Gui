@@ -1,0 +1,17 @@
+Package: zimagent
+Version: 1.0.0
+Section: education
+Priority: optional
+Architecture: amd64
+Depends: python3 (>= 3.9), python3-pyqt5, python3-psutil
+Maintainer: ZimAgent <hello@zimagent.local>
+Description: ZimAgent Desktop
+ Offline CRUD + semantic search desktop application
+ for Wikipedia ZIM archives.
+ .
+ Features:
+  * Read, write, edit and delete ZIM articles
+  * Semantic search powered by TurboRag
+  * Local LLM question answering
+  * MCP server for Claude Desktop / LangChain integration
+  * Fully offline – no internet required
