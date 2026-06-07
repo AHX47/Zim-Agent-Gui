@@ -12,24 +12,7 @@ Claude Desktop / LangChain integration.
 ---
 
 ## 📸 Screenshot
-
-```
-┌──── ZimAgent ── ● Offline Mode – Fully Local ──────────────────────────────┐
-│ 🏠 │ Dashboard  │ CRUD Operations  │ Semantic Search  │ MCP Server          │
-│────┼───────────────────────────────────────────────────────────────────────│
-│ 📁 │ ZIM Archive Input & CRUD          │ Query & Results                   │
-│    │  📄 wikipedia_en_mini.zim          │  [ Ask a question…       ] [Ask] │
-│ 🔍 │  File size: 90 MB | 12,345 art.  │                                    │
-│    │  [Read] [Write] [Edit] [Delete]   │  Semantic Search Results           │
-│ 🔗 │  Last action: Wrote 'Rust'…      │  ● Python (programming)   [View]  │
-│    │                                   │                                    │
-│ ⚙  │ Pipeline Visualization            │  LLM Answer                        │
-│    │  📄→📋--→💎--→🔷 + 🗄            │  "Python was created by…"         │
-│    │  ZIM  Chunk Gemma TurboVec SQLite │                                    │
-│────┴───────────────────────────────────────────────────────────────────────│
-│  CPU 12%  RAM 1.2 GB  │ ZIM: wikipedia_en_mini.zim │ [Synced 14:32] [Offline]│
-└────────────────────────────────────────────────────────────────────────────┘
-```
+<img src=zim-agent-gui.png/>
 
 ---
 
